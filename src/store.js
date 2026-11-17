@@ -1,32 +1,23 @@
-export const initialStore=()=>{
-  return{
-    message: null,
-    todos: [
-      {
-        id: 1,
-        title: "Make the bed",
-        background: null,
-      },
-      {
-        id: 2,
-        title: "Do my homework",
-        background: null,
-      }
-    ]
+// Estado global del sitio (mismo patrón del boilerplate: store + reducer + dispatch).
+export const SELLOS_META = 8;
+
+export const initialStore = () => {
+  return {
+    listo: false,        // true cuando termina el preloader; dispara la animación del hero
+    sellos: 3,           // sellos de la tarjeta de fidelización de la demo
+    premios: 0,          // premios reclamados en la demo
   }
 }
 
 export default function storeReducer(store, action = {}) {
-  switch(action.type){
-    case 'add_task':
-
-      const { id,  color } = action.payload
-
-      return {
-        ...store,
-        todos: store.todos.map((todo) => (todo.id === id ? { ...todo, background: color } : todo))
-      };
+  switch (action.type) {
+    case 'sitio_listo':
+      return { ...store, listo: true };
+    case 'sumar_sello':
+      return { ...store, sellos: Math.min(store.sellos + 1, SELLOS_META) };
+    case 'reclamar_premio':
+      return { ...store, sellos: 0, premios: store.premios + 1 };
     default:
       throw Error('Unknown action.');
-  }    
+  }
 }

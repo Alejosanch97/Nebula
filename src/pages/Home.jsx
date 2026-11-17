@@ -1,16 +1,25 @@
-import rigoImageUrl from "../assets/img/rigo-baby.jpg";
-import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import { Hero } from "../components/Hero";
+import { Manifiesto } from "../components/Manifiesto";
+import { Compass } from "../components/Compass";
+import { Proyectos } from "../components/Proyectos";
+import { Metodo } from "../components/Metodo";
+import { Fidelizacion } from "../components/Fidelizacion";
+import { Bitacora, Fuera } from "../components/Bitacora";
+import { useRevelar } from "../lib/useRevelar";
 
+// La página es un ascenso: sale de Bogotá (2.600 m) y cada sección es un tramo hasta la cumbre.
 export const Home = () => {
-
-  const {store, dispatch} =useGlobalReducer()
-
-	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-		</div>
-	);
-}; 
+    useRevelar("home");
+    return (
+        <>
+            <Hero />
+            <Manifiesto />
+            <Compass />
+            <Proyectos />
+            <Metodo />
+            <Fidelizacion />
+            <Bitacora />
+            <Fuera />
+        </>
+    );
+};
