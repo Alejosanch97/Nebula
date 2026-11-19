@@ -63,7 +63,7 @@ export const proyectos = [
     enlace: null, imagen: null,
   },
   {
-    slug: "Fidelización Digital y Sellos NFC", nombre: "Fidelización Digital y Sellos NFC", tipo: "Fidelización NFC",
+    slug: "dulcefresa", nombre: "Fidelización Digital y Sellos NFC", tipo: "Fidelización NFC",
     resumen: "Convierte cada compra en una dinámica digital y divertida. Una plataforma multiempresa con sellos NFC que motiva a los clientes a volver y vender más en tu negocio.",
     dato: "Unos 90 clientes inscritos", stack: ["Flask", "React", "Supabase", "NFC"],
     enlace: "https://nfcdulcefresa.onrender.com", imagen: null,
