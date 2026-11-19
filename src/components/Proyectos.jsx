@@ -62,9 +62,9 @@ export const Proyectos = () => {
             <div className="pro__escena">
                 <div className="pro__pista" ref={pista}>
                     <header className="pro__cabeza">
-                        <h2 data-split>Once productos. Ninguno se parece al otro.</h2>
-                        <p>Cada proyecto tiene su propia identidad visual, hecha a la medida y sin plantillas. Todos están en uso.</p>
-                        <span className="pro__pista-ayuda">Desliza para recorrerlos</span>
+                        <h2 data-split>Once productos activos. Diseñados para resolver.</h2>
+                        <p>Software y sistemas hechos a la medida, listos para operar y generar impacto desde el día uno.</p>
+                        <span className="pro__pista-ayuda">Explora los casos reales →</span>
                     </header>
                     {proyectos.map((p) => {
                         const Marco = p.enlace ? "a" : "div";

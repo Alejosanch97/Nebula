@@ -40,39 +40,39 @@ export const hitosCompass = [
 export const proyectos = [
   {
     slug: "orbit", nombre: "Orbit Horizon", tipo: "SaaS para colegios",
-    resumen: "Planeación docente con IA. Lumi, su asistente, salta entre cuatro proveedores si uno falla.",
+    resumen: "Planeación docente con IA sobre tus mallas curriculares. Lumi arma clases dinámicas con juegos en 8 pasos y reduce el tiempo de planeación significativamente.",
     dato: "100% de los docentes la usa", stack: ["Flask", "PostgreSQL", "React", "Groq + Gemini + Mistral"],
     enlace: null, imagen: null,
   },
   {
     slug: "lumi", nombre: "Lumi", tipo: "Asistente de IA propio",
-    resumen: "Mi asistente personal vive en un PC local. Conversa por API con un servidor Flask, recuerda lo que hablamos y lleva mis tareas.",
+    resumen: "Construí mi propio Jarvis. Tiene memoria, organiza mis pendientes y orquesta una cascada de modelos de IA para ejecutar lo que le pido, a mi manera.",
     dato: "Funciona como yo lo diseñé", stack: ["ESP32-S3", "Flask", "APIs de LLM", "SQLite"],
     enlace: null, imagen: null,
   },
   {
     slug: "whatsapp", nombre: "Chatbots de WhatsApp", tipo: "Automatización",
-    resumen: "Un menú automático atiende llegadas, salidas, almuerzos y certificados, y le pasa la conversación a una persona cuando hace falta.",
-    dato: "Próximo paso: el colegio", stack: ["WhatsApp Cloud API", "Meta", "Backend propio"],
+    resumen: "Automatiza la atención de cualquier negocio con flujos inteligentes que responden al instante, ordenan solicitudes 24/7 y escalan a un humano solo cuando hace falta.",
+    dato: "Adaptable a cualquier empresa o institución.", stack: ["WhatsApp Cloud API", "Meta", "Backend propio"],
     enlace: null, imagen: null,
   },
   {
     slug: "finfluent", nombre: "FinFluent", tipo: "Educación financiera en inglés",
-    resumen: "Los estudiantes terminan el curso con una cuenta de ahorros real y sus primeras inversiones.",
-    dato: "En clase cada semana", stack: ["React", "Apps Script", "Sheets"],
+    resumen: "Plataforma de educación financiera 100 % en inglés. Los estudiantes aprenden presupuesto, crédito e inversión en la práctica mientras fortalecen su segundo idioma.",
+    dato: "De la teoría al mundo real · En uso en aula", stack: ["React", "Apps Script", "Sheets"],
     enlace: null, imagen: null,
   },
   {
-    slug: "dulcefresa", nombre: "Dulce Fresa", tipo: "Fidelización NFC",
-    resumen: "Tarjeta de sellos por NFC y menú digital para una heladería de Puente Aranda.",
+    slug: "Fidelización Digital y Sellos NFC", nombre: "Fidelización Digital y Sellos NFC", tipo: "Fidelización NFC",
+    resumen: "Convierte cada compra en una dinámica digital y divertida. Una plataforma multiempresa con sellos NFC que motiva a los clientes a volver y vender más en tu negocio.",
     dato: "Unos 90 clientes inscritos", stack: ["Flask", "React", "Supabase", "NFC"],
     enlace: "https://nfcdulcefresa.onrender.com", imagen: null,
   },
   {
     slug: "nomos", nombre: "Nomos", tipo: "Seguridad y salud en el trabajo",
-    resumen: "La Resolución 0312 convertida en formularios, semáforos y acciones correctivas.",
-    dato: "Reemplazó el papel en dos instituciones", stack: ["React", "Apps Script", "IA"],
-    enlace: null, imagen: null,
+    resumen: "Digitaliza todo tu SG-SST sin papeles: crea y gestiona formularios, visualiza el cumplimiento en gráficas claras y conversa con una IA que detecta al instante qué te falta por cumplir.",
+    dato: "Resolución 0312 · Control total e IA integrada", stack: ["React", "Apps Script", "IA"],
+    enlace: "https://nomossgsst.netlify.app/", imagen: null,
   },
   {
     slug: "avana", nombre: "Avana Leather", tipo: "Marca y catálogo",
@@ -102,7 +102,7 @@ export const proyectos = [
     slug: "tribu", nombre: "Tribu 2600", tipo: "Viajes de aventura",
     resumen: "El sitio de mi comunidad de montaña, lleno de cumbres y expediciones por catálogo.",
     dato: "Colombia, Guatemala y más", stack: ["React", "Spline", "Sheets"],
-    enlace: null, imagen: null,
+    enlace: "https://tribu2600.online/", imagen: null,
   },
 ];
 
@@ -119,7 +119,7 @@ export const masTrabajo = [
   { nombre: "Recibos y pagos del colegio", tipo: "Herramienta interna con impresión térmica", color: "#2EC4B6", enlace: "" },
   { nombre: "Asistencia desde iPads", tipo: "Herramienta interna con concurrencia", color: "#F4A261" },
   { nombre: "Protocolo 60", tipo: "PWA de ejercicio y nutrición", color: "#E63946", enlace: "https://protocolo-60.netlify.app/" },
-  { nombre: "PETROSKY", tipo: "Arcade en React", color: "#FFD166" },
+  { nombre: "RealismoMagico", tipo: "Arcade en React", color: "#FFD166" },
 ];
 
 export const casos = [
@@ -161,5 +161,5 @@ export const fuera = [
   { titulo: "Tribu 2600", texto: "Fundé una comunidad de viajes de aventura. Montañas, volcanes y cumbres en grupo, de Colombia a Guatemala." },
   { titulo: "Un colegio", texto: "Soy vicerrector de un colegio bilingüe en Bogotá: 320 estudiantes, 20 docentes y toda la operación digitalizada." },
   { titulo: "Correr", texto: "Corro para pensar. La disciplina de los kilómetros es la misma con la que cierro proyectos." },
-  { titulo: "Un país al mes", texto: "Mi meta es conocer un país nuevo cada mes." },
+  { titulo: "Un país al año", texto: "Mi meta es conocer un país nuevo cada año." },
 ];

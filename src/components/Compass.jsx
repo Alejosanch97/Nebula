@@ -37,7 +37,7 @@ export const Compass = () => {
             <div className={`compass__escena ${fijo ? "compass__escena--fija" : ""}`}>
                 <header className="compass__cabeza">
                     <p className="compass__sello">Piloto en Los Andes. Rumbo a Berlín.</p>
-                    <h2 data-split>COMPASS guía a un colegio hacia el uso responsable de la IA.</h2>
+                    <h2 data-split>COMPASS guía a Instituciones hacia el uso responsable de la IA.</h2>
                     <p className="compass__intro">
                         Lo cofundé con Felipe Cárdenas y construí la plataforma completa. ATLAS, su modelo
                         operativo, lleva a cada institución por cinco fases.
